@@ -8,3 +8,9 @@ import { ref } from "vue";
   <label for="homeValue">Home Value</label>
   <input name="homeValue" type="text" />
 </template>
+
+<style scoped>
+label {
+  padding-right: 0.75rem;
+}
+</style>
